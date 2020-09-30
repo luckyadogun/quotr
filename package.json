@@ -1,0 +1,19 @@
+{
+  "name": "quotr",
+  "version": "1.0.0",
+  "description": "A quotes website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build css/tailwind.css -o src/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "axios": "^0.20.0",
+    "postcss": "^8.1.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
+  }
+}
